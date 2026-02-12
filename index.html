@@ -3,93 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Santhosh K | Web Developer</title>
+    <meta name="description" content="Santhosh K - Web Developer Portfolio. Full Stack Web Developer from India.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div>
-            <h1>My Logo</h1>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+   <div class="logo">
+    <a href="#home">SXNDY</a>
+</div>
+
+
+    <nav class="main-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero">
+    <h1>Hello, I'm <span>Santhosh K</span></h1>
+    <h2>Full Stack Web Developer</h2>
+    <p>I build modern, responsive, and scalable web applications.</p>
+    <a href="#contact" class="btn-primary">Hire Me</a>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        As a dedicated web developer based in Pondicherry, India, I hold a B.Tech in Computer Science Engineering from ACET.
+        I specialize in building Full-Stack websites and modern web applications. I am passionate about improving my skills
+        by developing real-world projects and full-stack clones.
+    </p>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Personal responsive portfolio website using HTML, CSS, and JavaScript.</p>
         </div>
-        <div>
-            <a href="#home">Home</a> |
-            <a href="#About">About me</a> |
-            <a href="#Project">Project</a> |
-            <a href="#Education">Education</a> |
-            <a href="#Skills">Skills</a>
-            <a href="#contact">Contact</a>
+
+        <div class="project-card">
+            <h3>Full Stack Clone</h3>
+            <p>Developed full-stack clone projects to improve backend and frontend integration.</p>
         </div>
-    </header>
-    <section id="home">
-        <h1>I'm Santhosh K</h1>
-        <h2>I'm a Web Developer</h2>
-    </section>
 
-    <section id="About">
-        <h2>About me</h2>
-        <p>As a dedicated web developer based in Pondicherry, India, I hold a B.Tech in Computer Science Engineering from ACET. My fervor for coding and web development drives me to continually enhance my skill set. I specialize in constructing comprehensive Full-Stack websites and am passionate about creating intricate web applications. Currently, I am independently refining my expertise, with a particular enthusiasm for developing Full-Stack clones to further hone my abilities.</p>
-    </section>
+        <div class="project-card">
+            <h3>Web Applications</h3>
+            <p>Built multiple mini web apps to practice JavaScript and backend technologies.</p>
+        </div>
+    </div>
+</section>
 
-    <section id="Education">
-        <h2>Education</h2>
-        <ul>
-            <h3>Bachelor of Technology In Computer Science Engineering</h3>
-            <li>Achariya college of engineering and technology | ACET</li>
-            <p>2023-2027 | Pursuing</p>
-            <h3>HSC Science | Informatic Practices</h3>
-            <li>Kolping Matriculation Higher Secondary School | State Board</li>
-            <p>2021-2023 | Completed</p>
-        </ul>
-    </section>
+<!-- ================= EDUCATION ================= -->
+<section id="education" class="education">
+    <h2>Education</h2>
 
-    <section id="Skills">
-        <h2>Skills</h2>
-        <ul>
+    <div class="edu-item">
+        <h3>B.Tech in Computer Science Engineering</h3>
+        <p>Achariya College of Engineering and Technology (ACET)</p>
+        <span>2023 – 2027 | Pursuing</span>
+    </div>
+
+    <div class="edu-item">
+        <h3>HSC Science | Informatics Practices</h3>
+        <p>Kolping Matriculation Higher Secondary School</p>
+        <span>2021 – 2023 | Completed</span>
+    </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+        <div>
             <h3>Technical Skills</h3>
-            <li>Html</li>
-            <li>Css</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C#</li>
-            <h3>Abilities</h3>
-            <li>Lightroom</li>
-            <li>AdobeAI</li>
-            <li>Photoshop</li>
-            <li>AdobeXD</li>
-        </ul>
-    </section>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C#</li>
+            </ul>
+        </div>
 
-    <section>
-        <h3>Achivements</h3>
-        <ul>
-            <h3>Lenovo Pvt Limited</h3>
-            <li>Undertook a 10-day internship at Lenovo Pvt. Ltd., developing insights into corporate work culture and operations.</li>
-            <h3>Ignitelabs Pvt Limited</h3>
-            <li>One year of internship experience at Ignite Labs Pvt. Limited, specializing in web development, UI design, and website optimization.</li>
-        </ul>
-    </section>
+        <div>
+            <h3>Design & Tools</h3>
+            <ul>
+                <li>Adobe Lightroom</li>
+                <li>Adobe Illustrator</li>
+                <li>Photoshop</li>
+                <li>Adobe XD</li>
+            </ul>
+        </div>
+    </div>
+</section>
 
-       <footer id="contact">
-    <h3>Contact Me</h3>
+<!-- ================= ACHIEVEMENTS ================= -->
+<section class="achievements">
+    <h2>Achievements & Internships</h2>
+
+    <div class="achieve-item">
+        <h3>Lenovo Pvt. Limited</h3>
+        <p>10-day internship gaining exposure to corporate work culture and IT operations.</p>
+    </div>
+
+    <div class="achieve-item">
+        <h3>Ignite Labs Pvt. Limited</h3>
+        <p>One year internship in web development, UI design, and website optimization.</p>
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<footer id="contact" class="contact">
+    <h2>Contact Me</h2>
 
     <form class="contact-form">
-        <div class="form-group">
-            <input type="text" name="name" placeholder="Your Name" required>
-        </div>
-
-        <div class="form-group">
-            <input type="email" name="email" placeholder="Your Email" required>
-        </div>
-
-        <div class="form-group">
-            <input type="tel" name="phone" placeholder="Your Phone Number" required>
-        </div>
-
-        <div class="form-group">
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-        </div>
-
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="tel" name="phone" placeholder="Your Phone Number" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
         <button type="submit" class="btn-submit">Send Message</button>
     </form>
 
@@ -98,6 +143,5 @@
     </p>
 </footer>
 
-        
 </body>
 </html>
